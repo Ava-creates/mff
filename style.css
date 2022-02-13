@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap');
+
+html, body {
+
+    min-width: 800px;
+    min-height: 800px;
+    left: 0px;
+    right: 0px;
+    font-family: 'Rowdies', cursive;
+    margin: 0px;
+}
+
+h1 {
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    height: 12vh;
+    top: 5vh;
+    width: 100%;
+    font-size: 80px;
+    background-color: white;
+    background-position: center;
+}
+
+section {
+    position: relative;
+    display: block;
+    width: 100vw;
+    height: 87vh;
+    /*margin: 50px;*/
+    background-color: #F4AC45;
+    top: 10vh;
+    left: 0px;
+    margin-bottom: 2vh;
+}
+
+
+.nav-bar {
+    background-color: #92Bfb1;
+    position: fixed;
+    text-align: right;
+    display: flex;
+    justify-content: right;
+    width: 100%;
+    height: 6vh;
+    top: 0px;
+    left: 0px;
+    z-index: 9999;
+    /*box-shadow: 0px 6px 8px grey;*/
+}
+
+
+
+.nav-bar a {
+    display: block;
+    /* fatema added */
+    text-decoration: none;
+    
+    color: black;
+    width: 5vw;
+    /* height: 2vh;  fatema commented */
+    margin: 20px;
+    /* fatema added */
+    text-align: center;
+    line-height: 1;
+    /* fatema done */
+}
+
+.nav-bar a:hover {
+    background-color: #a61c3c;
+    color: white;
+}
+
+.wrapper {
+
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    left: 0px;
+
+}
+
+.card {
+    position: relative;
+    width: 26vw;
+    height: 70vh;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    object-fit: cover;
+    overflow: hidden;
+
+}
+
+
+.cards {
+    position: relative;
+    padding: 30px;
+    margin: 10px;
+    display: block;
+    left: 0px;
+    top: 5vh;
+    background-color: transparent;
+
+
+    perspective: 1000px;
+}
+
+.cards:hover .card {
+    transform: rotateY(180deg);
+}
+
+/* fatema added */
+.cards .card div p,h2 {
+    transform: scale(-1, 1);
+}
+/* fatema done */
+
+.front, .back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.back {
+    color: white;
+    background-color: #dad6d6;
+}
+
+video {
+
+    position: relative;
+    width: 80%;
+    height: 80vh;
+    top: 2vh;
+
+}
+
+.v {
+    display: flex;
+    justify-content: center;
+}
