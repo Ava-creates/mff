@@ -18,7 +18,7 @@ h1 {
     height: 12vh;
     top: 5vh;
     width: 100%;
-    font-size: 80px;
+    font-size: 60vw;
     background-color: white;
     background-position: center;
     z-index=9999
@@ -132,7 +132,7 @@ section {
 .front
 {
     background-image=url(https://i.redd.it/tom097oyy2b51.jpg)
-    font-size=50px;
+    font-size=20rem;
     object-fit:cover;
     background-color: #92Bfb1;
     transform: scale(1, -1);
