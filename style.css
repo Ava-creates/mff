@@ -55,17 +55,16 @@ section {
 
 .nav-bar a {
     display: block;
-    /* fatema added */
+   
     text-decoration: none;
     
     color: black;
     width: 5vw;
-    /* height: 2vh;  fatema commented */
+  
     margin: 20px;
-    /* fatema added */
+   
     text-align: center;
-    line-height: 1;
-    /* fatema done */
+  
 }
 
 .nav-bar a:hover {
