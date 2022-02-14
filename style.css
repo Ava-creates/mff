@@ -21,14 +21,16 @@ h1 {
     font-size: 80px;
     background-color: white;
     background-position: center;
-    z-index=9999
+    z-index: 9999;
 }
 
 section {
+    display: flex;
+    justify-content:center;
     position: relative;
-    display: block;
+    padding: 20px;
     width: 100vw;
-    height: 96vh;
+    height: 98vh;
     /*margin: 50px;*/
     background-color: #F4AC45;
     top: 10vh;
