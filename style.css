@@ -73,8 +73,11 @@ section {
 
 }
 .nav-bar .nav-bar-link:hover {
-    background-color: #a61c3c;
-    color: white;
+    background-color: #a61c3c;    
+}
+
+.nav-bar a:hover
+{color: white;
 }
 
 .wrapper {
