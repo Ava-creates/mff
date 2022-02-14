@@ -18,7 +18,7 @@ h1 {
     height: 12vh;
     top: 5vh;
     width: 100%;
-    font-size: 60vw;
+    font-size: 10vh;
     background-color: white;
     background-position: center;
     z-index=9999
@@ -162,7 +162,7 @@ video {
 
 .footer{
     display:flex;
-    height: 15vh;
+    height: 2vh;
     width:100vw;
     background-color:#92Bfb1;
     color:balck;
