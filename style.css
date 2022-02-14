@@ -111,11 +111,11 @@ section {
     transform: rotateY(180deg);
 }
 
-/* fatema added */
+
 .cards .card div p,h2 {
     transform: scale(-1, 1);
+    padding: 30px;
 }
-/* fatema done */
 
 .front, .back {
     position: absolute;
