@@ -131,8 +131,10 @@ section {
 }
 .front
 {
-    background-img=url("https://i.redd.it/tom097oyy2b51.jpg")
+    background-img=url(https://i.redd.it/tom097oyy2b51.jpg)
     font-size=50px;
+    object-fit:cover;
+    background-color: #92Bfb1;
 }
 .back {
     color: white;
