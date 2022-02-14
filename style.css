@@ -159,3 +159,11 @@ video {
     display: flex;
     justify-content: center;
 }
+
+.footer{
+    display:flex;
+    height: 15vh;
+    width:100vw;
+    background-color:#92Bfb1;
+    color:balck;
+}
