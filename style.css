@@ -163,9 +163,12 @@ video {
 }
 
 .footer{
-    display:flex;
-    height: 2vh;
-    width:100vw;
+
+    display: block;
+    
+    height: 15vh;
+    width: 100%;
+    right: 0px;
     background-color:#92Bfb1;
-    color:balck;
+    color:black;
 }
