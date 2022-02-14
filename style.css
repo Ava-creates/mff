@@ -129,7 +129,11 @@ section {
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
 }
-
+.front
+{
+    background-img=url("https://i.redd.it/tom097oyy2b51.jpg")
+    font-size=50px;
+}
 .back {
     color: white;
     background-color: #dad6d6;
