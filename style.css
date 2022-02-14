@@ -66,8 +66,13 @@ section {
     text-align: center;
   
 }
+.nav-bar-link{
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
 
-.nav-bar a:hover .nav-bar-link{
+}
+.nav-bar .nav-bar-link:hover {
     background-color: #a61c3c;
     color: white;
 }
