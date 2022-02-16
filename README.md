@@ -7,7 +7,9 @@ Project Name: sounds of nyuad
 Project Description: what is the project, what is the overall concept and theme, and what kind of experience you were striving to create.<br>
 the main concept was to build a minimalistic organised website with fixed color scheme, smooth flow and bits of animation to give more agency to the user.
 <br>
+
 Process: How did you go about implementing the concept.<br>
+
 I used a fixed color palette ( did not try to mix and match), a lot of divs for proper organisation. I primarily used css to create the rotate card affect and the transition in the about page with a little bit of javascript
 <br>
 
