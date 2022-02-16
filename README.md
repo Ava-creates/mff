@@ -1,4 +1,4 @@
-# mff
+#sounds of nyuad
 https://ava-creates.github.io/mff/
 
 Project Name: sounds of nyuad
