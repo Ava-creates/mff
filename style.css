@@ -2,8 +2,8 @@
 
 html, body {
 
-    min-width: 800px;
-    min-height: 800px;
+    min-width: 900px;
+    min-height: 900px;
     left: 0px;
     right: 0px;
     font-family: 'Rowdies', cursive;
@@ -169,10 +169,13 @@ video {
 
 #footer{
     display: flex;
-    height: 15vh;
+    height: 10vh;
     width: 100vw;
+    font-size: 10px;
+    right:100%;
     background-color:#92Bfb1;
-    color: white;
+    color: black;
+    
 }
 /*
 .container{
@@ -266,6 +269,7 @@ video {
     position: relative;
     top:85%;
     left: 0;
+    
     color: white;
     font-size: 25px;
     background-color:#92Bfb1;
